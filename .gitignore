@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.ruff_cache/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Captured traffic — may contain sensitive data, never commit
+*.pcap
+*.pcapng
+capture*.pcap
+
+# Editor/IDE
+.vscode/
+.idea/
