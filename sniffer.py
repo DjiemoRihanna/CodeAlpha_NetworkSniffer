@@ -189,7 +189,7 @@ def main():
     handler = make_handler(show_payload=not args.no_payload, counters=counters)
 
     print("=" * 70)
-    print(" Network Sniffer — educational use only")
+    print(" Network Sniffer ")
     print(f" Interface : {args.interface or conf.iface}")
     print(f" Filter    : {args.filter or '(none — capturing all traffic)'}")
     print(f" Count     : {'unlimited (Ctrl+C to stop)' if args.count == 0 else args.count}")
